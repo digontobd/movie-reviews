@@ -1,0 +1,27 @@
+{
+  "name": "movie-reviews",
+  "version": "1.0.0",
+  "description": "Showcasing moview reviews using Javascript and Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digontobd/movie-reviews.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Tailwind"
+  ],
+  "author": "Moshiur Rahman Mehedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digontobd/movie-reviews/issues"
+  },
+  "homepage": "https://github.com/digontobd/movie-reviews#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.15",
+    "tailwindcss": "^4.0.15"
+  }
+}
