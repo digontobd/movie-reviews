@@ -4,36 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Reviews App using Vanilla JS and Tailwind</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/style.css" />
     <script type="module" src="assets/index.js" defer></script>
   </head>
-  <body>
+  <body class="font-poppins">
     <div class="fles flex-col">
       <nav class="bg-gray-600 text-white p-2">
-        <h1 class="text-3xl">Movie Reviews</h1>
+        <h1 class="text-3xl font-bold">✍ Movie Reviews</h1>
       </nav>
       <div class="flex justify-around p-8">
-        <div class="card" id="tMoviesId"></div>
-        <div class="card" id="tAvgRatingId"></div>
-        <div class="card" id="tReviewsId"></div>
+        <div class="card text-center" id="tMoviesId"></div>
+        <div class="card text-center" id="tAvgRatingId"></div>
+        <div class="card text-center" id="tReviewsId"></div>
       </div>
       <div class="p-4" id="movieListId">
-        <div class="flex">
-          <h2 class="text-2xl">Movie Reviews</h2>
-          <span class="mx-2 mt-[5px]">|</span>
-          <button
-            id="srtBtnId"
-            class="cursor-pointer text-blue-600 hover:text-blue-800"
-          >
-            sort by rating
-          </button>
-          <span class="mx-2 mt-[5px]">|</span>
-          <button
-            id="grpBtnId"
-            class="cursor-pointer text-blue-600 hover:text-blue-800"
-          >
-            Group
-          </button>
+        <div class="flex justify-between">
+          <h2 class="text-2xl font-bold">All Reviews</h2>
+          <div class="button-wrapper">
+            <button
+              id="srtBtnId"
+              class="cursor-pointer text-blue-600 hover:text-blue-800"
+            >
+              Sort by Rating
+            </button>
+            <span class="mx-2 mt-[5px]">|</span>
+            <button
+              id="grpBtnId"
+              class="cursor-pointer text-blue-600 hover:text-blue-800"
+            >
+              Group
+            </button>
+          </div>
         </div>
         <ul class="my-2 list-none"></ul>
       </div>

@@ -1,7 +1,12 @@
 @import "tailwindcss";
+@layer base {
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
 @layer components {
   .card {
-    @apply p-4 bg-white rounded shadow;
-    border: 1px solid rgb(169, 164, 164);
+    @apply p-5 bg-gray-100 rounded-md border border-gray-200;
   }
 }
